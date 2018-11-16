@@ -267,17 +267,18 @@ void clear_DSL(pdseqlist ps)
 // 冒泡排序，flag 为 0 升序， 为 1 降序
 void bubbleSort_DSL(pdseqlist ps, int flag)
 {
-    (void)ps;
-    (void)flag;
-//     if(NULL == ps)
-//     {
-//         return;
-//     }
-// 
-//     for(int i = 0; i < ps->_size; ++i)
-//     {
-//         for(int j = 0; j < )
-//     }
+    if(NULL == ps)
+    {
+        return;
+    }
+
+    for(int i = 0; i < ps->_size; ++i)
+    {
+        for(int j = 0; j < ps->_size - 1; ++j)
+        {
+            if(ps->_array[j] < ps->_array[j + 1] || 0 == flag)
+        }
+    }
 }
 
 // 选择排序 flag 为 0 升序

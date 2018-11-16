@@ -194,4 +194,3 @@ void RemoveAll(pseqlist ps, DataType data)
     }
 }
 
-
