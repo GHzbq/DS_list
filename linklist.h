@@ -41,9 +41,6 @@ plinklist deleteValAll_LL(plinklist * pl, DataType data);
 // 反转一个单链表
 void reverse_LL(plinklist * pl);
 
-// 给定一个带有头结点 head 的非空单链表，返回链表的中间结点。如果有两个中间结点，则返回第二个
-// 中间结点。
-//void 这个目前解决不了 这是不带头节点的单链表
 
 // 输入一个链表，输出该链表中倒数第k个结点。
 void print_KthLastNode_LL(plinklist pl, int K);
